@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+  
 }
 nav{
     display: flex;
@@ -188,13 +189,13 @@ margin-top: 18px;
 }
 .video{
     
-    width: 1076px;
+    width: 900px;
     height: 550px;
     border-radius: 16px;
    
 
 background: url(Jhankar);
-margin-left: 1000px;
+margin-left: 800px;
 padding: 20px;
 }
 .Target{
