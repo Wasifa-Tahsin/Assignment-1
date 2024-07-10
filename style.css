@@ -191,14 +191,14 @@ margin-top: 18px;
     width: 1076px;
     height: 550px;
     border-radius: 16px;
+   
 
 background: url(Jhankar);
-margin-left: 600px;
+margin-left: 1000px;
 padding: 20px;
 }
-/* .Target{
-    width: 1140px;
-    height: 463px;
+.Target{
+    
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -217,11 +217,151 @@ text-align: center;
 font-weight: 400;
 line-height: 26px;
 margin-top: 10px;
-} */
-.need{
+} 
+ .mission{
+    /* border: 1px solid red; */
+    width: 1140px;
+height: 463px;
+margin: 0 auto;
+ }
+ .need{
     display: flex;
+    width: 1140px;
+    height: 500px;
+display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
-height: 500px;
+/* padding: 50px 50px; */
+    
+
+
+
+ }
+ .one{
+    width: 364px;
+height: 300px;
+padding: 40px;
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+align-items: center;
+
+
+ }
+ .two{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+        
+        border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+ }
+ .three{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+        
+        border-radius: 16px;
+        background: rgba(255, 223, 0, 0.05);
+ }
+ .name{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+margin-top: 10px;
+ }
+.txt{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+}
+.click{
+    text-decoration-line: underline;
+    font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+margin-top: 10px;
+}
+
+
+.last{
+    width: 1140px;
+    height: 314px;
+
+background-image: url("assets/handshake.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+/* padding: 80px; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+
+}
+
+.sub-title{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+
+
+
+}
+.touch{
+    width: 548px;
+height: 57px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+padding: 19px 20px 19px 20px;
+
+
+
+}
+.sub {
+    border-radius: 8px;
+
+background: rgb(255, 255, 255);
+align-items: center;
+padding: 17px 20px 17px 20px;
+margin-left: 400px;
+}
+.pp{
+    font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+color: rgb(13, 19, 33);
+}
+.icon{
+    margin: 0px 24px; 
+}
+.foot{
+    display: flex;
+   justify-content: space-between;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    text-align: center;
+
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
 }
