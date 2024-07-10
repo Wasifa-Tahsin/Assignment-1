@@ -16,13 +16,91 @@ nav>ul>li{
 font-size: 28px;
 font-weight: bold;
 color: #0D1321;
+
+}
+.primary-button{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+padding: 17px 24px 17px 24px;
+
 }
 .header{
     height: 650px;
-    margin-top: 70px;
+  
     background-image: url('./assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position:center ;
     background-size: cover;
+  border-style: dashed;
   
+}
+.main-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    width: 998px;
+height: 582px;
+padding: 20px;
+gap: 24px;
+   
+}
+.head{
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+}
+.text{
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: rgb(13, 19, 33);
+text-align: center;
+}
+.btn{
+    width: 208px;
+height: 66px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+
+background: rgb(13, 19, 33);
+}
+.second-container{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border: 1px solid red;
+width: 1140px;
+height: 1395px;
+margin: 0 auto;
+gap: 20px;
+
+}
+.second-head{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+margin-top: 60px;
+}
+.second-text{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+gap: 48px;
 }
