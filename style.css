@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0px 100px;
+    padding: 40px;
+}
+nav>ul>li{
+    list-style-type: none;
+}
+.nav-title{
+font-size: 28px;
+font-weight: bold;
+color: #0D1321;
+}
+.header{
+    height: 650px;
+    margin-top: 70px;
+    background-image: url('./assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+  
+}
